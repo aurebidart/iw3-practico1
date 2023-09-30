@@ -4,6 +4,7 @@
       <tr>
         <th class="text-left">Producto</th>
         <th class="text-left">Precio</th>
+        <th class="text-left">Detalles</th>
       </tr>
     </thead>
     <tbody>
@@ -34,12 +35,6 @@
       </tr>
     </tbody>
   </v-table>
-  <div class="text-center">
-    <v-btn color="primary" class="mt-3">
-      <v-icon>mdi-plus</v-icon>
-      <span>Agregar producto</span>
-    </v-btn>
-  </div>
 </template>
 
 <script setup>

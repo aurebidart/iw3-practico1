@@ -8,8 +8,8 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'Home',
-        component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
+        name: 'Productos',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Productos.vue'),
       },
       {
         path: '/details/:id', // Ruta dinámica con un parámetro llamado "id"
@@ -21,6 +21,17 @@ const routes = [
         name: 'NewSell',
         component: () => import(/* webpackChunkName: "new-sell" */ '@/views/NewSell.vue'),
       },
+      {
+        path: '/sells-history',
+        name: 'SellsHistory',
+        component: () => import(/* webpackChunkName: "new-sell" */ '@/views/SellsHistory.vue'),
+      },
+      {
+        path: '/add-product',
+        name: 'AddProduct',
+        component: () => import(/* webpackChunkName: "new-sell" */ '@/views/AddProduct.vue'),
+      },
+
     ],
   },
 ]
