@@ -6,7 +6,7 @@
       "unit": "kilo",
       "cost": 2.5,
       "stock": 10,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Manzanas frescas de temporada",
       "category": "fruta",
@@ -110,14 +110,14 @@
       "unit": "docena",
       "cost": 4.5,
       "stock": 8,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Naranjas frescas y jugosas",
       "category": "fruta",
       "tags": [
         "naranja",
         "fruta",
-        "cítrico"
+        "c\u00c3\u00adtrico"
       ],
       "allergens": [
         "ninguno"
@@ -158,16 +158,16 @@
     },
     {
       "id": 4,
-      "name": "Plátanos",
+      "name": "Platanos",
       "unit": "kilo",
       "cost": 2,
       "stock": 20,
       "origin": "Ecuador",
       "organic": false,
-      "description": "Plátanos frescos y deliciosos",
+      "description": "Platanos frescos y deliciosos",
       "category": "fruta",
       "tags": [
-        "plátano",
+        "platano",
         "fruta",
         "amarillo"
       ],
@@ -266,7 +266,7 @@
       "unit": "250 gramos",
       "cost": 3.5,
       "stock": 18,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Fresas frescas y jugosas",
       "category": "fruta",
@@ -318,7 +318,7 @@
       "unit": "kilo",
       "cost": 1.5,
       "stock": 25,
-      "origin": "Perú",
+      "origin": "Peru",
       "organic": false,
       "description": "Papas frescas y sabrosas",
       "category": "vegetal",
@@ -370,7 +370,7 @@
       "unit": "kilo",
       "cost": 2,
       "stock": 30,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Zanahorias frescas y crujientes",
       "category": "vegetal",
@@ -422,7 +422,7 @@
       "unit": "unidad",
       "cost": 1,
       "stock": 40,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Lechuga fresca y crujiente",
       "category": "vegetal",
@@ -474,7 +474,7 @@
       "unit": "kilo",
       "cost": 2,
       "stock": 25,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Tomates frescos y jugosos",
       "category": "vegetal",
@@ -526,9 +526,9 @@
       "unit": "kilo",
       "cost": 1.8,
       "stock": 35,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
-      "description": "Cebollas frescas y aromáticas",
+      "description": "Cebollas frescas y arom\u00c3\u00a1ticas",
       "category": "vegetal",
       "tags": [
         "cebolla",
@@ -578,7 +578,7 @@
       "unit": "kilo",
       "cost": 3,
       "stock": 15,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": false,
       "description": "Pimientos frescos y sabrosos",
       "category": "vegetal",
@@ -630,7 +630,7 @@
       "unit": "unidad",
       "cost": 1.2,
       "stock": 50,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Coles frescas y saludables",
       "category": "vegetal",
@@ -678,16 +678,16 @@
     },
     {
       "id": 14,
-      "name": "Sandía",
+      "name": "Sandia",
       "unit": "unidad",
       "cost": 3.5,
       "stock": 20,
-      "origin": "España",
+      "origin": "Espana",
       "organic": true,
-      "description": "Sandía fresca y refrescante",
+      "description": "Sandia fresca y refrescante",
       "category": "fruta",
       "tags": [
-        "sandía",
+        "sandia",
         "fruta",
         "rojo"
       ],
@@ -734,7 +734,7 @@
       "unit": "kilo",
       "cost": 1.8,
       "stock": 30,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Pepinos frescos y crujientes",
       "category": "vegetal",
@@ -786,12 +786,12 @@
       "unit": "kilo",
       "cost": 2.2,
       "stock": 25,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": false,
-      "description": "Calabacines frescos y versátiles",
+      "description": "Calabacines frescos y vers\u00c3\u00a1tiles",
       "category": "vegetal",
       "tags": [
-        "calabacín",
+        "calabac\u00c3\u00adn",
         "vegetal",
         "verde"
       ],
@@ -834,16 +834,16 @@
     },
     {
       "id": 17,
-      "name": "Brócoli",
+      "name": "Brocoli",
       "unit": "kilo",
       "cost": 2.5,
       "stock": 20,
-      "origin": "España",
+      "origin": "Espana",
       "organic": true,
-      "description": "Brócoli fresco y saludable",
+      "description": "Brocoli fresco y saludable",
       "category": "vegetal",
       "tags": [
-        "brócoli",
+        "brocoli",
         "vegetal",
         "verde"
       ],
@@ -890,7 +890,7 @@
       "unit": "kilo",
       "cost": 2.2,
       "stock": 20,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": true,
       "description": "Espinacas frescas y saludables",
       "category": "vegetal",
@@ -942,7 +942,7 @@
       "unit": "kilo",
       "cost": 5,
       "stock": 10,
-      "origin": "España",
+      "origin": "Espa\u00c3\u00b1a",
       "organic": false,
       "description": "Cerezas frescas y dulces",
       "category": "fruta",
@@ -994,9 +994,9 @@
       "unit": "unidad",
       "cost": 2.5,
       "stock": 15,
-      "origin": "México",
+      "origin": "M\u00c3\u00a9xico",
       "organic": false,
-      "description": "Mango fresco y exótico",
+      "description": "Mango fresco y ex\u00c3\u00b3tico",
       "category": "fruta",
       "tags": [
         "mango",
@@ -1039,33 +1039,128 @@
         "manganese": 0.1,
         "selenium": 0
       }
-    },
-    {
-      "name": "Caramelos",
-      "cost": "86421",
-      "amount": "-96",
-      "description": "Caramelos para que te de cancer en los dientes",
-      "id": 21
     }
   ],
   "clients": [
     {
       "id": 1,
       "name": "Juan",
-      "surname": "Pérez",
+      "surname": "Perez",
       "address": "Calle Principal 123"
     },
     {
       "id": 2,
-      "name": "María",
-      "surname": "González",
+      "name": "Maria",
+      "surname": "Gonzalez",
       "address": "Avenida Central 456"
     },
     {
       "id": 3,
       "name": "Carlos",
-      "surname": "López",
+      "surname": "Lopez",
       "address": "Plaza del Sol 789"
+    },
+    {
+      "id": 4,
+      "name": "Ana",
+      "surname": "Rodriguez",
+      "address": "Calle Flores 101"
+    },
+    {
+      "id": 5,
+      "name": "Luis",
+      "surname": "Martinez",
+      "address": "Avenida Palmeras 567"
+    },
+    {
+      "id": 6,
+      "name": "Elena",
+      "surname": "Sanchez",
+      "address": "Paseo del Rio 876"
+    },
+    {
+      "id": 7,
+      "name": "Javier",
+      "surname": "Fernandez",
+      "address": "Callejon Estrecho 234"
+    },
+    {
+      "id": 8,
+      "name": "Sofia",
+      "surname": "Torres",
+      "address": "Ronda de la Luna 543"
+    },
+    {
+      "id": 9,
+      "name": "Diego",
+      "surname": "Ramirez",
+      "address": "Avenida Montana 210"
+    },
+    {
+      "id": 10,
+      "name": "Laura",
+      "surname": "Luna",
+      "address": "Calle Pesa 689"
+    },
+    {
+      "id": 11,
+      "name": "Jorge",
+      "surname": "Vargas",
+      "address": "Plaza Mayor 111"
+    },
+    {
+      "id": 12,
+      "name": "Carmen",
+      "surname": "Fuentes",
+      "address": "Avenida Mar 333"
+    },
+    {
+      "id": 13,
+      "name": "Pedro",
+      "surname": "Hernandez",
+      "address": "Calle Estrella 777"
+    },
+    {
+      "id": 14,
+      "name": "Isabel",
+      "surname": "Soto",
+      "address": "Paseo del Bosque 456"
+    },
+    {
+      "id": 15,
+      "name": "Manuel",
+      "surname": "Diaz",
+      "address": "Calle Cielo 999"
+    },
+    {
+      "id": 16,
+      "name": "Raquel",
+      "surname": "Ortega",
+      "address": "Avenida Ocaso 222"
+    },
+    {
+      "id": 17,
+      "name": "Antonio",
+      "surname": "Castro",
+      "address": "Calle Montes 888"
+    },
+    {
+      "id": 18,
+      "name": "Lucia",
+      "surname": "Guerrero",
+      "address": "Paseo del Sol 123"
+    },
+    {
+      "id": 19,
+      "name": "Miguel",
+      "surname": "Silva",
+      "address": "Avenida Rio 567"
+    },
+    {
+      "id": 20,
+      "name": "Pilar",
+      "surname": "Reyes",
+      "address": "Plaza Estrella 444"
     }
   ],
   "sells": [
@@ -1074,7 +1169,8 @@
       "client_id": 1,
       "product_id": 1,
       "amount": 1,
-      "cost": 15
+      "cost": 15,
+      "date": "02-23-2021"
     },
     {
       "id": 2,
@@ -1082,21 +1178,263 @@
       "product_id": 2,
       "amount": 2,
       "cost": 64,
-      "date": 
+      "date": "02-25-2021"
     },
     {
       "id": 3,
       "client_id": 1,
       "product_id": 3,
       "amount": 3,
-      "cost": 23.6
+      "cost": 23.6,
+      "date": "02-26-2021"
     },
     {
       "id": 4,
       "client_id": 3,
       "product_id": 1,
       "amount": 2,
-      "cost": 79.5
+      "cost": 79.5,
+      "date": "02-27-2021"
+    },
+    {
+      "id": 5,
+      "client_id": 6,
+      "product_id": 16,
+      "amount": 1,
+      "cost": 2.2,
+      "date": "12-05-2021"
+    },
+    {
+      "id": 6,
+      "client_id": 11,
+      "product_id": 6,
+      "amount": 2,
+      "cost": 7.0,
+      "date": "08-20-2021"
+    },
+    {
+      "id": 7,
+      "client_id": 13,
+      "product_id": 15,
+      "amount": 6,
+      "cost": 10.8,
+      "date": "11-16-2021"
+    },
+    {
+      "id": 8,
+      "client_id": 18,
+      "product_id": 4,
+      "amount": 8,
+      "cost": 16,
+      "date": "06-06-2021"
+    },
+    {
+      "id": 9,
+      "client_id": 1,
+      "product_id": 14,
+      "amount": 1,
+      "cost": 3.5,
+      "date": "12-28-2022"
+    },
+    {
+      "id": 10,
+      "client_id": 9,
+      "product_id": 16,
+      "amount": 3,
+      "cost": 6.6000000000000005,
+      "date": "04-16-2021"
+    },
+    {
+      "id": 11,
+      "client_id": 20,
+      "product_id": 17,
+      "amount": 4,
+      "cost": 10.0,
+      "date": "11-05-2022"
+    },
+    {
+      "id": 12,
+      "client_id": 3,
+      "product_id": 16,
+      "amount": 1,
+      "cost": 2.2,
+      "date": "09-01-2021"
+    },
+    {
+      "id": 13,
+      "client_id": 7,
+      "product_id": 15,
+      "amount": 1,
+      "cost": 1.8,
+      "date": "08-18-2021"
+    },
+    {
+      "id": 14,
+      "client_id": 5,
+      "product_id": 2,
+      "amount": 7,
+      "cost": 21,
+      "date": "01-02-2022"
+    },
+    {
+      "id": 15,
+      "client_id": 6,
+      "product_id": 15,
+      "amount": 7,
+      "cost": 12.6,
+      "date": "06-27-2021"
+    },
+    {
+      "id": 16,
+      "client_id": 16,
+      "product_id": 7,
+      "amount": 8,
+      "cost": 12.0,
+      "date": "12-21-2021"
+    },
+    {
+      "id": 17,
+      "client_id": 15,
+      "product_id": 15,
+      "amount": 6,
+      "cost": 10.8,
+      "date": "05-28-2021"
+    },
+    {
+      "id": 18,
+      "client_id": 9,
+      "product_id": 1,
+      "amount": 8,
+      "cost": 20.0,
+      "date": "03-10-2021"
+    },
+    {
+      "id": 19,
+      "client_id": 1,
+      "product_id": 3,
+      "amount": 9,
+      "cost": 40.5,
+      "date": "11-07-2022"
+    },
+    {
+      "id": 20,
+      "client_id": 15,
+      "product_id": 18,
+      "amount": 4,
+      "cost": 8.8,
+      "date": "12-12-2022"
+    },
+    {
+      "id": 21,
+      "client_id": 12,
+      "product_id": 10,
+      "amount": 9,
+      "cost": 18,
+      "date": "09-26-2022"
+    },
+    {
+      "id": 22,
+      "client_id": 12,
+      "product_id": 17,
+      "amount": 7,
+      "cost": 17.5,
+      "date": "07-03-2021"
+    },
+    {
+      "id": 23,
+      "client_id": 1,
+      "product_id": 15,
+      "amount": 6,
+      "cost": 10.8,
+      "date": "11-23-2022"
+    },
+    {
+      "id": 24,
+      "client_id": 20,
+      "product_id": 12,
+      "amount": 7,
+      "cost": 21,
+      "date": "07-12-2021"
+    },
+    {
+      "id": 25,
+      "client_id": 4,
+      "product_id": 3,
+      "amount": 10,
+      "cost": 45.0,
+      "date": "01-09-2021"
+    },
+    {
+      "id": 26,
+      "client_id": 10,
+      "product_id": 15,
+      "amount": 5,
+      "cost": 9.0,
+      "date": "04-18-2021"
+    },
+    {
+      "id": 27,
+      "client_id": 17,
+      "product_id": 8,
+      "amount": 10,
+      "cost": 20,
+      "date": "05-24-2022"
+    },
+    {
+      "id": 28,
+      "client_id": 10,
+      "product_id": 14,
+      "amount": 3,
+      "cost": 10.5,
+      "date": "12-12-2022"
+    },
+    {
+      "id": 29,
+      "client_id": 8,
+      "product_id": 4,
+      "amount": 10,
+      "cost": 20,
+      "date": "01-09-2022"
+    },
+    {
+      "id": 30,
+      "client_id": 16,
+      "product_id": 3,
+      "amount": 1,
+      "cost": 4.5,
+      "date": "09-03-2022"
+    },
+    {
+      "id": 31,
+      "client_id": 17,
+      "product_id": 3,
+      "amount": 10,
+      "cost": 45.0,
+      "date": "04-16-2021"
+    },
+    {
+      "id": 32,
+      "client_id": 11,
+      "product_id": 9,
+      "amount": 8,
+      "cost": 8,
+      "date": "01-19-2022"
+    },
+    {
+      "id": 33,
+      "client_id": 5,
+      "product_id": 14,
+      "amount": 4,
+      "cost": 14.0,
+      "date": "12-09-2022"
+    },
+    {
+      "id": 34,
+      "client_id": 16,
+      "product_id": 5,
+      "amount": 4,
+      "cost": 16,
+      "date": "10-28-2021"
     }
   ]
 }
