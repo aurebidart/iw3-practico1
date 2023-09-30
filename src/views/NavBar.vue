@@ -36,11 +36,6 @@ import { ref } from "vue";
 
 const drawer = ref(false);
 
-//Cuando cargue la pagina que se actualice el valor page
-router.afterEach((to) => {
-  page.value = router.currentRoute.value.meta.title;
-});
-
 function navigateToProducts() {
   router.push("/");
 }

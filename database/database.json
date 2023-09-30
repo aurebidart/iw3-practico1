@@ -10,8 +10,14 @@
       "organic": true,
       "description": "Manzanas frescas de temporada",
       "category": "fruta",
-      "tags": ["manzana", "fruta", "verde"],
-      "allergens": ["frutos secos"],
+      "tags": [
+        "manzana",
+        "fruta",
+        "verde"
+      ],
+      "allergens": [
+        "frutos secos"
+      ],
       "nutrients": {
         "calories": 52,
         "fat": 0.2,
@@ -50,14 +56,20 @@
       "id": 2,
       "name": "Peras",
       "unit": "kilo",
-      "cost": 3.0,
+      "cost": 3,
       "stock": 15,
       "origin": "Italia",
       "organic": false,
       "description": "Peras frescas y jugosas",
       "category": "fruta",
-      "tags": ["pera", "fruta", "amarillo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "pera",
+        "fruta",
+        "amarillo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 42,
         "fat": 0.2,
@@ -102,8 +114,14 @@
       "organic": true,
       "description": "Naranjas frescas y jugosas",
       "category": "fruta",
-      "tags": ["naranja", "fruta", "cítrico"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "naranja",
+        "fruta",
+        "cítrico"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 43,
         "fat": 0.2,
@@ -142,14 +160,20 @@
       "id": 4,
       "name": "Plátanos",
       "unit": "kilo",
-      "cost": 2.0,
+      "cost": 2,
       "stock": 20,
       "origin": "Ecuador",
       "organic": false,
       "description": "Plátanos frescos y deliciosos",
       "category": "fruta",
-      "tags": ["plátano", "fruta", "amarillo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "plátano",
+        "fruta",
+        "amarillo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 89,
         "fat": 0.3,
@@ -188,14 +212,20 @@
       "id": 5,
       "name": "Uvas",
       "unit": "kilo",
-      "cost": 4.0,
+      "cost": 4,
       "stock": 12,
       "origin": "Italia",
       "organic": true,
       "description": "Uvas frescas y dulces",
       "category": "fruta",
-      "tags": ["uva", "fruta", "morado"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "uva",
+        "fruta",
+        "morado"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 69,
         "fat": 0.2,
@@ -240,8 +270,14 @@
       "organic": true,
       "description": "Fresas frescas y jugosas",
       "category": "fruta",
-      "tags": ["fresa", "fruta", "rojo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "fresa",
+        "fruta",
+        "rojo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 32,
         "fat": 0.3,
@@ -286,8 +322,14 @@
       "organic": false,
       "description": "Papas frescas y sabrosas",
       "category": "vegetal",
-      "tags": ["papa", "vegetal", "amarillo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "papa",
+        "vegetal",
+        "amarillo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 77,
         "fat": 0.1,
@@ -326,14 +368,20 @@
       "id": 8,
       "name": "Zanahorias",
       "unit": "kilo",
-      "cost": 2.0,
+      "cost": 2,
       "stock": 30,
       "origin": "España",
       "organic": true,
       "description": "Zanahorias frescas y crujientes",
       "category": "vegetal",
-      "tags": ["zanahoria", "vegetal", "naranja"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "zanahoria",
+        "vegetal",
+        "naranja"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 41,
         "fat": 0.2,
@@ -372,14 +420,20 @@
       "id": 9,
       "name": "Lechuga",
       "unit": "unidad",
-      "cost": 1.0,
+      "cost": 1,
       "stock": 40,
       "origin": "España",
       "organic": true,
       "description": "Lechuga fresca y crujiente",
       "category": "vegetal",
-      "tags": ["lechuga", "vegetal", "verde"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "lechuga",
+        "vegetal",
+        "verde"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 5,
         "fat": 0.1,
@@ -418,14 +472,20 @@
       "id": 10,
       "name": "Tomates",
       "unit": "kilo",
-      "cost": 2.0,
+      "cost": 2,
       "stock": 25,
       "origin": "España",
       "organic": true,
       "description": "Tomates frescos y jugosos",
       "category": "vegetal",
-      "tags": ["tomate", "vegetal", "rojo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "tomate",
+        "vegetal",
+        "rojo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 18,
         "fat": 0.2,
@@ -470,8 +530,14 @@
       "organic": true,
       "description": "Cebollas frescas y aromáticas",
       "category": "vegetal",
-      "tags": ["cebolla", "vegetal", "blanco"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "cebolla",
+        "vegetal",
+        "blanco"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 40,
         "fat": 0.1,
@@ -510,14 +576,20 @@
       "id": 12,
       "name": "Pimientos",
       "unit": "kilo",
-      "cost": 3.0,
+      "cost": 3,
       "stock": 15,
       "origin": "España",
       "organic": false,
       "description": "Pimientos frescos y sabrosos",
       "category": "vegetal",
-      "tags": ["pimiento", "vegetal", "rojo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "pimiento",
+        "vegetal",
+        "rojo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 31,
         "fat": 0.3,
@@ -562,8 +634,14 @@
       "organic": true,
       "description": "Coles frescas y saludables",
       "category": "vegetal",
-      "tags": ["col", "vegetal", "verde"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "col",
+        "vegetal",
+        "verde"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 31,
         "fat": 0.2,
@@ -608,8 +686,14 @@
       "organic": true,
       "description": "Sandía fresca y refrescante",
       "category": "fruta",
-      "tags": ["sandía", "fruta", "rojo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "sandía",
+        "fruta",
+        "rojo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 30,
         "fat": 0.2,
@@ -654,8 +738,14 @@
       "organic": true,
       "description": "Pepinos frescos y crujientes",
       "category": "vegetal",
-      "tags": ["pepino", "vegetal", "verde"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "pepino",
+        "vegetal",
+        "verde"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 16,
         "fat": 0.2,
@@ -700,8 +790,14 @@
       "organic": false,
       "description": "Calabacines frescos y versátiles",
       "category": "vegetal",
-      "tags": ["calabacín", "vegetal", "verde"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "calabacín",
+        "vegetal",
+        "verde"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 17,
         "fat": 0.3,
@@ -746,8 +842,14 @@
       "organic": true,
       "description": "Brócoli fresco y saludable",
       "category": "vegetal",
-      "tags": ["brócoli", "vegetal", "verde"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "brócoli",
+        "vegetal",
+        "verde"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 34,
         "fat": 0.6,
@@ -792,8 +894,14 @@
       "organic": true,
       "description": "Espinacas frescas y saludables",
       "category": "vegetal",
-      "tags": ["espinaca", "vegetal", "verde"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "espinaca",
+        "vegetal",
+        "verde"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 23,
         "fat": 0.4,
@@ -832,14 +940,20 @@
       "id": 19,
       "name": "Cerezas",
       "unit": "kilo",
-      "cost": 5.0,
+      "cost": 5,
       "stock": 10,
       "origin": "España",
       "organic": false,
       "description": "Cerezas frescas y dulces",
       "category": "fruta",
-      "tags": ["cereza", "fruta", "rojo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "cereza",
+        "fruta",
+        "rojo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 50,
         "fat": 0.3,
@@ -884,8 +998,14 @@
       "organic": false,
       "description": "Mango fresco y exótico",
       "category": "fruta",
-      "tags": ["mango", "fruta", "amarillo"],
-      "allergens": ["ninguno"],
+      "tags": [
+        "mango",
+        "fruta",
+        "amarillo"
+      ],
+      "allergens": [
+        "ninguno"
+      ],
       "nutrients": {
         "calories": 60,
         "fat": 0.6,
@@ -919,6 +1039,13 @@
         "manganese": 0.1,
         "selenium": 0
       }
+    },
+    {
+      "name": "Caramelos",
+      "cost": "86421",
+      "amount": "-96",
+      "description": "Caramelos para que te de cancer en los dientes",
+      "id": 21
     }
   ],
   "clients": [
@@ -954,7 +1081,8 @@
       "client_id": 2,
       "product_id": 2,
       "amount": 2,
-      "cost": 64
+      "cost": 64,
+      "date": 
     },
     {
       "id": 3,

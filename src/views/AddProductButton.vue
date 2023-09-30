@@ -8,8 +8,8 @@
 </template>
 
 <script setup>
+import router from "@/router";
 function navigateToAddProduct() {
-    drawer.value = false;
     router.push("/add-product");
 }
 </script>

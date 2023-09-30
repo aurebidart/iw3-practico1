@@ -31,6 +31,7 @@ const routes = [
         name: 'AddProduct',
         component: () => import(/* webpackChunkName: "new-sell" */ '@/views/AddProduct.vue'),
       },
+      
 
     ],
   },
