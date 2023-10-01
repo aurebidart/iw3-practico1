@@ -1,7 +1,9 @@
 <template>
-    <h1> New sell</h1>
+    <NavBar />
+    <SellForm />
 </template>
 
 <script setup>
-
+    import NavBar from "./NavBar.vue";
+    import SellForm from "./SellForm.vue";
 </script>

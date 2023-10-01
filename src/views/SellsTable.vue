@@ -43,9 +43,9 @@ const selectedDate = ref(null);
 async function fetchData() {
   try {
     const [clientsResponse, sellsResponse, productsResponse] = await Promise.all([
-      axios.get("http://localhost:3000/clients"),
-      axios.get("http://localhost:3000/sells"),
-      axios.get("http://localhost:3000/products"),
+      axios.get("http://localhost:3001/clients"),
+      axios.get("http://localhost:3001/sells"),
+      axios.get("http://localhost:3001/products"),
     ]);
 
     clients.value = clientsResponse.data;
