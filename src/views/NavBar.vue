@@ -6,9 +6,7 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list>
         <v-list-item @click="navigateToProducts()">
-          <v-list-item-content>
             <v-list-item-title>Productos</v-list-item-title>
-          </v-list-item-content>
         </v-list-item>
         <v-list-item @click="navigateToNewSell()">
           <v-list-item-content>

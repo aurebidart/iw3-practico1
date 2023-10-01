@@ -22,8 +22,8 @@
             <td>{{ formatDate(sell.date) }}</td>
             <td>{{ getProductInfo(sell.product_id).name }}</td>
             <td>{{ getClientName(sell.client_id) }}</td>
-            <td>{{ sell.amount }}</td>
-            <td><span>$</span>{{ sell.cost }}</td> <!-- Agregamos el signo "$" -->
+            <td>{{ sell.quantity }}</td>
+            <td><span>$</span>{{ sell.total }}</td> <!-- Agregamos el signo "$" -->
           </tr>
         </tbody>
       </table>
