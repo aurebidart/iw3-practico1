@@ -8,14 +8,9 @@
         <v-list-item @click="navigateToProducts()">
             <v-list-item-title>Productos</v-list-item-title>
         </v-list-item>
-        <v-list-item @click="navigateToNewSell()">
-          <v-list-item-content>
-            <v-list-item-title>Nueva venta</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
         <v-list-item @click="navigateToSellHistory()">
           <v-list-item-content>
-            <v-list-item-title>Historial de ventas</v-list-item-title>
+            <v-list-item-title>Ventas</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item @click="navigateToAccountancy()">
@@ -40,10 +35,6 @@ function navigateToProducts() {
 
 function navigateToSellHistory() {
   router.push("/sells-history");
-}
-
-function navigateToNewSell() {
-  router.push("/new-sell");
 }
 
 function navigateToAccountancy() {

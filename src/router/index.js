@@ -19,7 +19,7 @@ const routes = [
       {
         path: '/new-sell',
         name: 'NewSell',
-        component: () => import(/* webpackChunkName: "new-sell" */ '@/views/NewSell.vue'),
+        component: () => import(/* webpackChunkName: "new-sell" */ '@/views/SellsHistory.vue'),
       },
       {
         path: '/sells-history',
@@ -30,6 +30,11 @@ const routes = [
         path: '/add-product',
         name: 'AddProduct',
         component: () => import(/* webpackChunkName: "new-sell" */ '@/views/AddProduct.vue'),
+      },
+      {
+        path: 'accountancy',
+        name: 'Contaduria',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Accountancy.vue'),
       },
       
 

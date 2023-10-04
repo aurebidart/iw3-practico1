@@ -13,3 +13,10 @@ function navigateToAddProduct() {
     router.push("/add-product");
 }
 </script>
+<style scoped>
+
+div {
+  margin-bottom: 15px;
+}
+
+</style>

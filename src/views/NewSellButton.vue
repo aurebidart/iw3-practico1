@@ -36,6 +36,9 @@
                 ></v-autocomplete>
               </v-col>
               <v-col cols="12">
+                <v-alert v-if="!hasEnoughStock()" type="error" outlined>
+                No hay suficiente stock disponible para realizar esta venta.
+                </v-alert>
                 <span class="text-h6">Total: $ {{ getTotal() }}</span>
               </v-col>
             </v-row>
@@ -93,24 +96,56 @@ function getTotal() {
   return product ? product.cost * sell.value.quantity : 0;
 }
 
+function hasEnoughStock() {
+  const selectedProduct = products.value.find(
+    (product) => product.name === sell.value.product
+  );
+  // Si el producto no está seleccionado o la cantidad es mayor que el stock disponible, retorna false
+  return selectedProduct && sell.value.quantity <= selectedProduct.stock;
+}
+
 function makeSell() {
+  // Verifica si hay suficiente stock antes de realizar la venta
+  if (!hasEnoughStock()) {
+    // Muestra un mensaje de error y no realiza la venta
+    alert("No hay suficiente stock disponible para realizar esta venta.");
+    return;
+  }
+
+  // Restar la cantidad vendida del stock del producto en la base de datos
+  const selectedProduct = products.value.find(
+    (product) => product.name === sell.value.product
+  );
+  if (selectedProduct) {
+    const updatedStock = selectedProduct.stock - sell.value.quantity;
+
+    // Actualiza solo el parámetro 'stock' del producto en la base de datos usando PATCH
+    axios.patch(`http://localhost:3001/products/${selectedProduct.id}`, {
+      stock: updatedStock,
+    });
+  }
+
+  // Continuar con el proceso de realizar la venta (tu código existente)
   const date = new Date();
   const client_id = clients.value.find(
     (client) => client.name === sell.value.client
   ).id;
-  const product_id = products.value.find(
-    (product) => product.name === sell.value.product
-  ).id;
-
+  const product_id = selectedProduct.id; // Usar el ID del producto seleccionado
   axios.post("http://localhost:3001/sells", {
     date,
     client_id,
     product_id,
     quantity: sell.value.quantity,
     total: getTotal(),
+  }).then(() => {
+    // Después de agregar la venta, cierra el diálogo
+    closeDialog();
+    window.location.reload();
   });
-  
 }
+
+
+
 
 axios.get("http://localhost:3001/products").then(function (response) {
   // handle success
@@ -133,4 +168,5 @@ function closeDialog() {
   };
   dialog.value = false;
 }
+
 </script>
