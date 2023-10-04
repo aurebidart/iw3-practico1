@@ -22,8 +22,8 @@
                 <v-row>
                     <v-col cols="12" md="6">
                         <v-text-field
-                            v-model="amount"
-                            label="Cantidad"
+                            v-model="stock"
+                            label="Stock"
                             type="number"
                             required
                         ></v-text-field>
@@ -65,7 +65,7 @@ import router from "@/router";
 const name = ref("");
 const cost = ref("");
 const productCost = ref("");
-const amount = ref("");
+const stock = ref("");
 const description = ref("");
 
 function saveProduct() {
@@ -74,7 +74,7 @@ function saveProduct() {
             name: name.value,
             cost: cost.value,
             productCost: productCost.value,
-            amount: amount.value,
+            stock: stock.value,
             description: description.value,
         })
         .then(function (response) {
