@@ -90,7 +90,7 @@
         const products = response.data;
         totalIncome.value = calculateTotalIncome(sells);
         totalCosts.value = calculateTotalCosts(products);
-        totalGain.value = totalIncome.value - totalCosts.value; // Calculating gains
+        totalGain.value = totalIncome.value - totalCosts.value;
       });
     });
   });

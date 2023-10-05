@@ -169,7 +169,7 @@ thead {
 }
 
 .date-input-container {
-  min-width: 100px; /* Ancho mínimo ajustado según tus necesidades */
+  min-width: 100px; 
 }
 
 .date-input {
@@ -180,7 +180,6 @@ thead {
   background-color: #f7f7f7;
 }
 
-/* Estilo alternado para filas de la tabla */
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
@@ -190,7 +189,7 @@ tbody tr:nth-child(even) {
 }
 
 .new-sell-button {
-  float: left; /* Coloca el botón a la derecha */
-  margin-top: 40px; /* Ajusta la distancia hacia abajo */
+  float: left; 
+  margin-top: 40px; 
 }
 </style>

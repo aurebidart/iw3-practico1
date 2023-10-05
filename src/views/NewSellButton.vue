@@ -140,14 +140,12 @@ function makeSell() {
 
 
 axios.get("http://localhost:3001/products").then(function (response) {
-  // handle success
   products.value = response.data;
   productsNames.value = response.data.map((product) => product.name);
   console.log(productsNames.value);
 });
 
 axios.get("http://localhost:3001/clients").then(function (response) {
-  // handle success
   clients.value = response.data;
   clientsNames.value = response.data.map((client) => client.name);
 });
