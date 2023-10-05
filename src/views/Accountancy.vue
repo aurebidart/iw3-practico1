@@ -17,6 +17,9 @@
           </div>
         </div>
       </div>
+      <div>
+        <GenerateReportButton />
+      </div>
     </div>
   </template>
   
@@ -72,6 +75,7 @@
   
   <script setup>
   import NavBar from "./NavBar.vue";
+  import GenerateReportButton from "./GenerateReportButton.vue";
   import { ref, onMounted } from "vue";
   import axios from "axios";
   

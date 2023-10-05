@@ -32,9 +32,14 @@ const routes = [
         component: () => import(/* webpackChunkName: "new-sell" */ '@/views/AddProduct.vue'),
       },
       {
-        path: 'accountancy',
+        path: '/accountancy',
         name: 'Contaduria',
         component: () => import(/* webpackChunkName: "home" */ '@/views/Accountancy.vue'),
+      },
+      {
+        path: '/report',
+        name: 'Reporte',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Report.vue'),
       },
       
 

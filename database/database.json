@@ -6,7 +6,7 @@
       "unit": "kilo",
       "cost": 2.5,
       "productionCost": 0.5,
-      "stock": 7,
+      "stock": 0,
       "origin": "EspaÃ±a",
       "organic": true,
       "description": "Manzanas frescas de temporada",
@@ -165,7 +165,7 @@
       "unit": "kilo",
       "cost": 2,
       "productionCost": 0.5,
-      "stock": 15,
+      "stock": 14,
       "origin": "Ecuador",
       "organic": false,
       "description": "Platanos frescos y deliciosos",
@@ -218,7 +218,7 @@
       "unit": "kilo",
       "cost": 4,
       "productionCost": 1,
-      "stock": 12,
+      "stock": 11,
       "origin": "Italia",
       "organic": true,
       "description": "Uvas frescas y dulces",
@@ -1255,6 +1255,38 @@
       "quantity": "10",
       "total": 25,
       "id": 43
+    },
+    {
+      "date": "2023-10-04T21:17:08.850Z",
+      "client_id": 2,
+      "product_id": 1,
+      "quantity": "5",
+      "total": 12.5,
+      "id": 44
+    },
+    {
+      "date": "2023-10-04T21:20:27.449Z",
+      "client_id": 4,
+      "product_id": 1,
+      "quantity": "2",
+      "total": 5,
+      "id": 45
+    },
+    {
+      "date": "2023-10-04T21:21:53.876Z",
+      "client_id": 3,
+      "product_id": 4,
+      "quantity": "1",
+      "total": 2,
+      "id": 46
+    },
+    {
+      "date": "2023-10-04T21:22:04.656Z",
+      "client_id": 3,
+      "product_id": 5,
+      "quantity": "1",
+      "total": 4,
+      "id": 47
     }
   ]
 }
