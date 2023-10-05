@@ -126,7 +126,7 @@ const confirmAddStock = () => {
     const productToUpdate = products.value.find(product => product.id === productIdToAddStock.value);
 
     if (productToUpdate) {
-      const updatedStock = productToUpdate.stock + stockToAddValue;
+      const updatedStock = parseInt(productToUpdate.stock) + stockToAddValue;
       
       axios.patch(`http://localhost:3001/products/${productIdToAddStock.value}`, { stock: updatedStock })
         .then(() => {

@@ -25,7 +25,6 @@
                 <v-text-field
                   label="Cantidad"
                   v-model="sell.quantity"
-                  :suffix="getProductUnit()"
                 ></v-text-field>
               </v-col>
               <v-col cols="12">
@@ -79,13 +78,6 @@ function getProductsNames() {
 
 function getClientsNames() {
   return clientsNames.value;
-}
-
-function getProductUnit() {
-  const product = products.value.find(
-    (product) => product.name === sell.value.product
-  );
-  return product ? product.unit : "";
 }
 
 function getTotal() {
