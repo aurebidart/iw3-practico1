@@ -7,6 +7,7 @@
                         <v-text-field
                             v-model="name"
                             label="Nombre"
+                            data-cy="product-name"
                             required
                         ></v-text-field>
                     </v-col>
@@ -15,6 +16,7 @@
                             v-model="cost"
                             label="Precio"
                             type="number"
+                            data-cy="product-price"
                             required
                         ></v-text-field>
                     </v-col>
@@ -25,6 +27,7 @@
                             v-model="stock"
                             label="Stock"
                             type="number"
+                            data-cy="product-stock"
                             required
                         ></v-text-field>
                     </v-col>
@@ -32,6 +35,7 @@
                         <v-text-field
                             v-model="description"
                             label="Descripción"
+                            data-cy="product-description"
                             required
                         ></v-text-field>
                     </v-col>
@@ -42,6 +46,7 @@
                             v-model="productCost"
                             label="Costo de produccion"
                             type="number"
+                            data-cy="product-cost"
                             required
                         ></v-text-field>
                     </v-col>

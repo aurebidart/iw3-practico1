@@ -6,13 +6,18 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "cypress": "cypress open",
+    "testing-json-server": "json-server database/test-database.json -p 3001",
+    "cypress:open:all": "run-p dev cypress testing-json-server"
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
     "axios": "^1.5.1",
     "chart.js": "^4.4.0",
     "core-js": "^3.29.0",
+    "cypress": "^13.3.3",
+    "npm-run-all": "^4.1.5",
     "roboto-fontface": "*",
     "vue": "^3.2.0",
     "vue-router": "^4.0.0",
