@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
-    "axios": "^1.5.1",
+    "axios": "^1.6.0",
     "chart.js": "^4.4.0",
     "core-js": "^3.29.0",
     "cypress": "^13.3.3",

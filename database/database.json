@@ -6,7 +6,7 @@
       "unit": "kilo",
       "cost": 2.5,
       "productionCost": 0.5,
-      "stock": 8,
+      "stock": 18,
       "origin": "EspaÃ±a",
       "organic": true,
       "description": "Manzanas frescas de temporada",
@@ -1279,14 +1279,6 @@
       "quantity": "1",
       "total": 2,
       "id": 46
-    },
-    {
-      "date": "2023-10-04T21:22:04.656Z",
-      "client_id": 3,
-      "product_id": 5,
-      "quantity": "1",
-      "total": 4,
-      "id": 47
     }
   ]
 }
